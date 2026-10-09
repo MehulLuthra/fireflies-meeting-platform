@@ -1,0 +1,9 @@
+00:00 Aarav: Let's review our final project before the presentation.
+00:30 Priya: The meeting library includes search and participant filters.
+01:00 Rohan: All meeting data is saved in SQLite.
+01:30 Aarav: I will prepare the presentation slides.
+02:00 Priya: I will test the mobile layout today.
+02:30 Rohan: We need to update the README with setup instructions.
+03:00 Aarav: The summary is mocked, so we do not need an AI API key.
+03:30 Priya: Let's demonstrate transcript search and clicking timestamps.
+04:00 Rohan: We will review the final ZIP tomorrow.
