@@ -15,7 +15,7 @@ async def lifespan(app):
     yield
 
 app = FastAPI(title="Fireflies College Project API", lifespan=lifespan)
-app.add_middleware(CORSMiddleware, allow_origins=os.getenv("FRONTEND_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000").split(","), allow_methods=["*"], allow_headers=["*"])
+app.add_middleware(CORSMiddleware, allow_origins=os.getenv("FRONTEND_ORIGINS", "http://localhost:3000,http://127.0.0.1:3000,https://fireflies-meeting-platform-phi.vercel.app").split(","), allow_methods=["*"], allow_headers=["*"])
 
 class Metadata(BaseModel):
     title: str = Field(min_length=1, max_length=200)
